@@ -39,6 +39,13 @@ input{
     margin: auto;
     margin-top: 30px;
     padding:3px;
+    width:70px;
+    
+}
+#button:hover{
+    background-color:rgb(67, 67, 85);
+    padding-top: 2px;
+
 }
 #output{
     padding: 2rem;

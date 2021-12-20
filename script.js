@@ -18,12 +18,12 @@ function calculate(initial,current,quantity){
     if(initial > current){
         const loss = (initial-current)* quantity
         const lossPercentage = loss / initial * 100;
-       ShowMessage(`Hey!! Your total loss is ${loss}, and the percentage is ${lossPercentage.toFixed(2)}% 😔😔😔`);
+       ShowMessage(`Hey!! Your total loss is ${loss}, and the LossPercentage is ${lossPercentage.toFixed(2)}% 😔😔😔`);
     }
     else if(current > initial){
         const profit = (current - initial) * quantity;
         const profitPercentage = profit / initial * 100
-        ShowMessage(`Hey Your profit is ${profit} and percentage is ${profitPercentage.toFixed(2)}%🥳🥳🥳`);
+        ShowMessage(`Hey Your profit is ${profit} and ProfitPercentage is ${profitPercentage.toFixed(2)}%🥳🥳🥳`);
     }else{
         ShowMessage(`No Pain No Gain And No Gain And No Pain😐😐`)
     }
