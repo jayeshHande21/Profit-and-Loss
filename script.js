@@ -10,7 +10,12 @@ function calculateProfitOrLoss() {
   const ip = initialPrice.value;
   const qty = total.value;
   const cp = currentPrice.value;
-  calculate(ip, cp, qty);
+
+  if (ip === "" || cp === "" || qty === "")
+    output.innerText = "All the 3 fields should be valid numbers";
+  else if (Number(ip) <= 0 || Number(cp) <= 0 || Number(qty) <= 0)
+    output.innerText = "All the fields should be greater than 0";
+  else calculate(ip, cp, qty);
 }
 
 function calculate(initial, current, quantity) {
