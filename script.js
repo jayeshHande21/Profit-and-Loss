@@ -26,7 +26,7 @@ function calculate(initial, current, quantity) {
     ShowMessage(
       `Hey!! Your total loss is ${loss}, and the LossPercentage is ${lossPercentage.toFixed(
         2
-      )}% 😔😔😔`
+      )}% `
     );
   } else if (current > initial) {
     const profit = (current - initial) * quantity;
@@ -34,7 +34,7 @@ function calculate(initial, current, quantity) {
     ShowMessage(
       `Hey Your profit is ${profit} and ProfitPercentage is ${profitPercentage.toFixed(
         2
-      )}%🥳🥳🥳`
+      )}%`
     );
   } else {
     ShowMessage(`No Pain No Gain And No Gain And No Pain😐😐`);
