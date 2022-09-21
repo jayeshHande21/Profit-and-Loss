@@ -7,6 +7,7 @@ Quantity and current price.
 - Also you will get how much percentage you gained/lost.
 - This app is made with javaScript.
 - Try it once and also share with your friends.
+- Project Link : https://check-profit-and-loss.netlify.app/
 
 ## Languages Used:
 
