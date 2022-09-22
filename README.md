@@ -16,6 +16,8 @@ Quantity and current price.
 ## Languages Used:
 
 - HTML5
+
 - CSS3
+
 - JavaScript
 
